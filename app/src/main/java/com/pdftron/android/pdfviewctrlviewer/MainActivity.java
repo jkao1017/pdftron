@@ -118,8 +118,9 @@ public class MainActivity extends AppCompatActivity {
                         .addToolButton(ToolbarButtonType.ERASER, DefaultToolbars.ButtonId.ERASER.value())
                         .addToolStickyButton(ToolbarButtonType.UNDO, DefaultToolbars.ButtonId.UNDO.value())
                         .addToolStickyButton(ToolbarButtonType.REDO, DefaultToolbars.ButtonId.REDO.value())
-                        .addCustomButton(R.string.favorites, R.drawable.annotation_note_icon_star_fill,105)
-                        .addCustomButton(R.string.file_attachments,R.drawable.annotation_note_icon_checkmark_fill,106)
+                        .addCustomButton(R.string.Download, R.drawable.ic_baseline_vertical_align_bottom_24,105)
+                        .addCustomButton(R.string.file_attachments,R.drawable.ic_baseline_folder_open_24,106)
+
         );
 
         mAnnotationToolbarComponent.addButtonClickListener(new AnnotationToolbarComponent.AnnotationButtonClickListener(){
